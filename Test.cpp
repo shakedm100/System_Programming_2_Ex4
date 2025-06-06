@@ -1,9 +1,11 @@
+//shaked1mi@gmail.com
+
 #define DOCTEST_CONFIG_IMPLEMENT_WITH_MAIN
 #include "doctest.h"
 #include "MyContainer.hpp"
 #include <sstream>
 
-using namespace logic;
+using namespace customContainer;
 
 // Helper to convert container contents (via operator<<) into a string
 template<typename T>

@@ -1,11 +1,13 @@
+// shaked1mi@gmail.com
+
 #pragma once
 #include <algorithm>
 #include <ostream>
 #include <stdexcept>
 #include <vector>
 
-namespace logic
-{
+namespace customContainer
+    {
     template<typename T>
     class MyContainer
     {

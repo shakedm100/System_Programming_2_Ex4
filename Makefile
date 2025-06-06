@@ -1,4 +1,4 @@
-# Makefile for building main, running tests, and cleaning
+# shaked1mi@gmail.com
 
 CXX        := g++
 CXXFLAGS   := -std=c++17 -Wall -Wextra -I.
