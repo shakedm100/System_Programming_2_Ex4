@@ -8,7 +8,7 @@
 
 namespace customContainer
     {
-    template<typename T>
+    template<typename T = int>
     class MyContainer
     {
     private:
