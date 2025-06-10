@@ -21,6 +21,7 @@ test: $(SRC_TEST) MyContainer.hpp
 
 valgrind: test
 	valgrind --leak-check=full ./$(TARGET_TEST)
+	valgrind --leak-check=full ./$(TARGET_MAIN)
 
 clean:
 	rm -f $(TARGET_MAIN) $(TARGET_TEST) *.o
